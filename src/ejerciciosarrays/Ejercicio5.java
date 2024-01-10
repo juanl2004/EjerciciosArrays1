@@ -13,8 +13,8 @@ public class Ejercicio5 {
 		int suma = 0;
 
 		// Declaramos la variable max y min para almacenar dichos valores.
-		int max = tabla[0];
-		int min = tabla[0];
+		int max;
+		int min;
 
 		// Creamos el Scanner
 		Scanner sc = new Scanner(System.in);
@@ -48,12 +48,12 @@ public class Ejercicio5 {
 			}
 		}
 
-		//Imprimimimos resultados
+		// Imprimimimos resultados
 		System.out.println("Suma de los números: " + suma);
 		System.out.println("Número máximo: " + max);
 		System.out.println("Número mínimo: " + min);
 
-		//Cierre de Scanner
+		// Cierre de Scanner
 		sc.close();
 	}
 

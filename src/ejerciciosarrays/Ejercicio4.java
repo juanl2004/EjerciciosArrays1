@@ -17,11 +17,9 @@ public class Ejercicio4 {
 		num[8] = 5;
 		num[9] = 120;
 
-		// Imprimimos la tabla para comprobar si los valores introducidos estan en el
-		// indice indicado por el usuario y tambien comprobamos que ocurre en los demas
-		// huecos en los que no hemos rellenado nada. Y comprobamos que los demas huecos
-		// se completan con "0".
-		System.out.println(Arrays.toString(num));
+		for (int i = 0; i < num.length; i++) {
+			System.out.print( num[i] + " ");
+		}
 
 	}
 
