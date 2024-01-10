@@ -17,8 +17,9 @@ public class Ejercicio4 {
 		num[8] = 5;
 		num[9] = 120;
 
+		// Con este for imprimimos la tabla num.
 		for (int i = 0; i < num.length; i++) {
-			System.out.print( num[i] + " ");
+			System.out.print(num[i] + " ");
 		}
 
 	}

@@ -19,8 +19,8 @@ public class Ejercicio5 {
 		// Creamos el Scanner
 		Scanner sc = new Scanner(System.in);
 
-		// Creamos este for para pedir un número al usuario tantas veces como se
-		// necesite para completar la tabla.
+		// Con este for le pedimos un número al usuario y lo guardamos en la tabla tanta
+		// veces como sea necesario para completar cada hueco de la tabla.
 		for (int i = 0; i < tabla.length; i++) {
 			System.out.println("Introduce un número --> ");
 			tabla[i] = sc.nextInt();
@@ -35,9 +35,9 @@ public class Ejercicio5 {
 		max = tabla[0];
 		min = tabla[0];
 
-		// Mediante el bucle for-each comparamos cada elemento del array con el valor
+		// Mediante el bucle for comparamos cada elemento del array con el valor
 		// actual de max y min. Si el elemento actual (tabla[i]) es mayor que max,
-		// actualizamos max con el valor del elemento actual y igual con el min
+		// actualizamos max con el valor del elemento actual y igual con el min.
 		for (int i = 1; i < 10; i++) {
 			if (tabla[i] > max) {
 				max = tabla[i];
