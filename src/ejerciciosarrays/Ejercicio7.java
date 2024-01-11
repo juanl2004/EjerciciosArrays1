@@ -6,8 +6,10 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 
+		final String MESES[] = { "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre",
+				"Octubre", "Noviembre", "Diciembre" };
 		// Creamos una tabla con una longitud determinada en este caso "12".
-		int temperatura[] = new int[12];
+		int temperatura[] = new int[MESES.length];
 
 		// Creamos el Scanner.
 		Scanner sc = new Scanner(System.in);
@@ -24,14 +26,18 @@ public class Ejercicio7 {
 		for (int barra : temperatura) {
 			// Con este for imprimimos tantos asteriscos como sea el valor del indice con el
 			// que nos estemos comparando en el momento.
-			for (int i = 1; i <= barra; i++) {
-				System.out.print("*");
-			}
-			//Salto de linea.
-			System.out.println("");
-		}
+			for (int i = 0; i <= barra; i++) {
+				System.out.println(MESES[i] + "\t");
 
-		//Cierre de Scanner
+				for (int j = 1; i <= barra; i++) {
+					System.out.print("*");
+				}
+			}
+			// Salto de linea.
+			System.out.print("");
+		}
+		System.out.println("");
+		// Cierre de Scanner
 		sc.close();
 	}
 
