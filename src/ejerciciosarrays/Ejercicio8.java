@@ -1,6 +1,5 @@
 package ejerciciosarrays;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Ejercicio8 {
@@ -38,5 +37,6 @@ public class Ejercicio8 {
 
 		}
 
-	}
+		//Cierre de Scanner 
+		sc.close();	}
 }

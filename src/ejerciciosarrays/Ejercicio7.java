@@ -29,7 +29,7 @@ public class Ejercicio7 {
 			for (int i = 0; i <= barra; i++) {
 				System.out.println(MESES[i] + "\t");
 
-				for (int j = 1; i <= barra; i++) {
+				for (int k = 1; i <= barra; i++) {
 					System.out.print("*");
 				}
 			}
@@ -37,6 +37,7 @@ public class Ejercicio7 {
 			System.out.print("");
 		}
 		System.out.println("");
+
 		// Cierre de Scanner
 		sc.close();
 	}
